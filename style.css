@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.keys{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 250px;
+    width: 500px;
+    background: #000;
+}
+
+.key{
+    background: goldenrod;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border: 1px #fff solid;
+}
