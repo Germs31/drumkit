@@ -4,17 +4,21 @@ const hats = document.querySelector('#hats');
 const crash = document.querySelector('#crash');
 
 kick.addEventListener('click', () => {
-    console.log('kick kick');
+    const kickDrum = new Audio('sounds/kick.wav');
+    kickDrum.play();
 })
 
 snare.addEventListener('click', () => {
-    console.log('snare snare');
+    const snareDrum = new Audio('sounds/snare.wav');
+    snareDrum.play();
 })
 
 hats.addEventListener('click', () => {
-    console.log('hat hat');
+    const hat = new Audio('sounds/hihat.wav');
+    hat.play();
 })
 
 crash.addEventListener('click', () => {
-    console.log('crash crash');
+    const openhats = new Audio('sounds/openhat.wav');
+    openhats.play();
 })
